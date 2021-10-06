@@ -1,0 +1,46 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#flex{
+    width: 30vw;
+    height: auto;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+#grid{   
+    width: 30vw;
+    height: 350px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;
+    /* gap, column gap, row gap */
+}
+
+.F1, .F2, .F3, .G1, .G2, .G3 {
+    background-color: brown;
+    margin: 5px;
+    padding: 5px;
+}
+.F4 {
+    width: 300px;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+}
+.F4 div p{
+    background-color: chartreuse;
+    padding: 15px;
+    margin: 5px;
+}
